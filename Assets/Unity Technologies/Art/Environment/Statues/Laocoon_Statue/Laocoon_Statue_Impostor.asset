@@ -1,0 +1,269 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &-7264395288690468457
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Laocoon_Statue_Impostor
+  m_Shader: {fileID: 4800000, guid: 83dd8de9a5c14874884f9012def4fdcc, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Albedo:
+        m_Texture: {fileID: 2800000, guid: b11a4ad785c2fca47b671c82d25c4c0f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Emission:
+        m_Texture: {fileID: 2800000, guid: 1b7bbe8150168fc44b4010588b662647, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normals:
+        m_Texture: {fileID: 2800000, guid: 2b94bcba95dfa1b45a129e3620fdd677, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Specular:
+        m_Texture: {fileID: 2800000, guid: fd9161ab53e0512409a9b87746a298d5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AI_AlphaToCoverage: 0
+    - _AI_ShadowBias: 0.25
+    - _AI_ShadowView: 1
+    - _ClipMask: 0.5
+    - _DepthSize: 4.732513
+    - _Frames: 32
+    - _Hemi: 0
+    - _Hue: 0
+    - _ImpostorSize: 4.7317853
+    - _Parallax: 1
+    - _TextureBias: -1
+    m_Colors:
+    - _AI_SizeOffset: {r: 4.7317853, g: 4.732513, b: 0, a: -0.0005040323}
+    - _HueVariation: {r: 0, g: 0, b: 0, a: 0}
+    - _Offset: {r: -0.2415502, g: 1.9492105, b: -5.14972, a: 0.016129034}
+  m_BuildTextureStacks: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7ba7a43222473d4292f91ae936fe2cc, type: 3}
+  m_Name: Laocoon_Statue_Impostor
+  m_EditorClassIdentifier: 
+  Material: {fileID: -7264395288690468457}
+  Mesh: {fileID: 7196035848236653870}
+  Version: 9714
+  ImpostorType: 1
+  LockedSizes: 1
+  SelectedSize: 2048
+  TexSize: {x: 2048, y: 2048}
+  DecoupleAxisFrames: 0
+  HorizontalFrames: 32
+  VerticalFrames: 32
+  PixelPadding: 64
+  MaxVertices: 16
+  Tolerance: 0.2
+  NormalScale: 0
+  ShapePoints:
+  - {x: 0.18359375, y: 0.90625}
+  - {x: 0.2578125, y: 0.953125}
+  - {x: 0.3203125, y: 0.984375}
+  - {x: 0.375, y: 1}
+  - {x: 0.61328125, y: 1}
+  - {x: 0.7265625, y: 0.9609375}
+  - {x: 0.81640625, y: 0.9025391}
+  - {x: 0.81640625, y: 0.48515624}
+  - {x: 0.7734375, y: 0.08984375}
+  - {x: 0.75390625, y: 0.0625}
+  - {x: 0.6171875, y: 0}
+  - {x: 0.43359375, y: 0}
+  - {x: 0.3671875, y: 0.01171875}
+  - {x: 0.2560764, y: 0.060329854}
+  - {x: 0.2265625, y: 0.08984375}
+  - {x: 0.18359375, y: 0.5410156}
+  Preset: {fileID: 11400000, guid: 0403878495ffa3c4e9d4bcb3eac9b559, type: 2}
+  OverrideOutput: []
+--- !u!43 &7196035848236653870
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Laocoon_Statue_Impostor
+  serializedVersion: 11
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 42
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 16
+    localAABB:
+      m_Center: {x: 0, y: -0.07631922, z: 0}
+      m_Extent: {x: 1.4971664, y: 2.3658926, z: 0}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 0f000b000700070003000f000f000d000b000b0009000700070005000300030001000f000f000e000d000d000c000b000b000a000900090008000700070006000500050004000300030002000100010000000f00
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 16
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 512
+    _typelessdata: 26a3bfbf5ad2ffbf000000000000000000000000000080bf00003c3e0000c03d73af92bf301b0ec0000000000000000000000000000080bf0000843e0000403d81a959bfdc9117c0000000000000000000000000000080bf0000a43e0000803cc96a17bf334d1cc0000000000000000000000000000080bf0000c03e00000000c638093f334d1cc0000000000000000000000000ffff7fbf00001d3f00000000c638893fdb7810c0000000000000000000000000000080bf00003a3f0000203d26a3bf3ff892fdbf000000000000000000000000000080bf0000513f9899c73d26a3bf3f6148c7bb000000000000000000000000000080bf0000513fcdcc033fcc9ca53f5fa6ee3f000000000000000000000000000080bf0000463f0000693f74c8993f0d36ff3f000000000000000000000000000080bf0000413f0000703f1cf40d3f5f881240000000000000000000000000000080bf00001e3f0000803f76e1a0be5f881240000000000000000000000000000080bf0000de3e0000803f76e120bfdffb0e40000000000000000000000000ffff7fbf0000bc3e00007d3fa2bc93bf44430040000000000000000000000000000080bf721c833e398e703fcc9ca5bf5fa6ee3f000000000000000000000000000080bf0000683e0000693f26a3bfbf61718abe000000000000000000000000000080bf00003c3e0000eb3e
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: -0.2415502, y: 1.9492105, z: -5.14972}
+    m_Extent: {x: 1.2587022, y: 1.9556173, z: 0.7479799}
+  m_MeshUsageFlags: 0
+  m_CookingOptions: 30
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  'm_MeshMetrics[0]': 1
+  'm_MeshMetrics[1]': 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
